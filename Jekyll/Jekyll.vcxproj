@@ -13,11 +13,12 @@
   <ItemGroup>
     <ClInclude Include="src\Jekyll.h" />
     <ClInclude Include="src\Jekyll\Application.h" />
-    <ClInclude Include="src\Jekyll\Core.h" />
     <ClInclude Include="src\Jekyll\EntryPoint.h" />
+    <ClInclude Include="src\Jekyll\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Jekyll\Application.cpp" />
+    <ClCompile Include="src\Jekyll\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -66,6 +67,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>JKL_LOGLEVEL=2;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,6 +81,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>JKL_LOGLEVEL=0;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
