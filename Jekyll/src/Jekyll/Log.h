@@ -1,3 +1,16 @@
+// TODO //
+// 1. write messages to alternative locations (VS, file. in-game console)
+// 2. specify location in window to write messages
+// 3. LogLevel enum ???
+// 4. additional log categories (i.e. Fatal)
+// 5. add argument parameters to the Log functions
+// 6. ability to take in inputs aside from string, similarly to how std::cout works (override << )
+// 7. do we need to worry about clearing old logs / flushing buffers / resetting state ???
+// 8. store actual log message in std::string, or another structure ???
+// 9. stacktrace / timestamps
+// 10. cleanup when program ends
+// 11. disable = operator
+
 #pragma once
 #include <string>
 #include <iostream>
