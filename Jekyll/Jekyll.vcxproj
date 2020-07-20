@@ -13,11 +13,16 @@
   <ItemGroup>
     <ClInclude Include="src\Jekyll.h" />
     <ClInclude Include="src\Jekyll\Application.h" />
+    <ClInclude Include="src\Jekyll\Broadcaster.h" />
+    <ClInclude Include="src\Jekyll\Entity.h" />
     <ClInclude Include="src\Jekyll\EntryPoint.h" />
+    <ClInclude Include="src\Jekyll\Events\Event.h" />
     <ClInclude Include="src\Jekyll\Log.h" />
+    <ClInclude Include="src\Jekyll\Observer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Jekyll\Application.cpp" />
+    <ClCompile Include="src\Jekyll\Broadcaster.cpp" />
     <ClCompile Include="src\Jekyll\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

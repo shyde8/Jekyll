@@ -10,7 +10,7 @@ namespace Jekyll
 
 		void Run();
 	};
-
+	
 	Application* CreateApplication();
 }
 
